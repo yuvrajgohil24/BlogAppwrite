@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Logo({width = '100px'}) {
+function Logo({ width = '40px' }) {
   return (
     <div>
-      Logo
+        <img src='../public/logo.png' width={width} className='rounded-md' />
     </div>
   )
 }

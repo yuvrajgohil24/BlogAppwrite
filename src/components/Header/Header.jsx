@@ -41,10 +41,10 @@ function Header() {
         <header className='py-3 shadow bg-gray-500'>
             <Container>
                 <nav className='flex'>
-                    <div className='mr-4'>
-                        <Link to='/'>
-                            <Logo width='70px' />
-
+                    <div className='mr-4 flex'>
+                        <Link to='/' >
+                            <Logo width='40px'/>
+                            <p className='absolute left-[12vw] top-[3.5vw]'>Bloggers</p>            
                         </Link>
                     </div>
                     <ul className='flex ml-auto'>
